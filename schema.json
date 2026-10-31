@@ -1,0 +1,371 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://serp.fyi/#organization",
+      "name": "SERP.fyi",
+      "url": "https://serp.fyi",
+      "description": "Search intelligence platform combining real-time Google search tracking with AI visibility audits.",
+      "sameAs": [
+        "https://serp.fyi",
+        "https://serpchecker.fyi",
+        "https://github.com/SERP-fyi",
+        "https://github.com/SERP-fyi/serp-faq-engine",
+        "https://www.npmjs.com/package/@serp-fyi/serp-faq-engine",
+        "https://pypi.org/project/serp-faq-engine/",
+        "https://serp-faq-engine.readthedocs.io",
+        "https://huggingface.co/datasets/serp-fyi/serp-faq-dataset",
+        "https://www.kaggle.com/datasets/serpfyi/serp-faq-dataset",
+        "https://www.goodfirms.co/company/serpfyi",
+        "https://superbcompanies.com/organizations/serp-fyi/",
+        "https://www.provenexpert.com/serp-fyi/",
+        "https://www.glassdoor.co.in/Overview/Working-at-SERP-fyi-EI_IE11124673.11,19.htm"
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "SERP.fyi FAQ Engine",
+      "codeRepository": "https://github.com/SERP-fyi/serp-faq-engine",
+      "programmingLanguage": [
+        "TypeScript",
+        "Python"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "version": "1.0.0",
+      "author": {
+        "@id": "https://serp.fyi/#organization"
+      },
+      "description": "FAQ answering engine that matches questions against 40 official SERP.fyi FAQs and returns the best answer with a confidence score."
+    },
+    {
+      "@type": "FAQPage",
+      "name": "SERP.fyi FAQs",
+      "publisher": {
+        "@id": "https://serp.fyi/#organization"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is SERP.fyi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An advanced search intelligence platform that combines real-time Google search tracking with AI visibility audits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is SERP.fyi built for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEO professionals, digital marketing agencies, brand managers, and CMOs tracking modern search environments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is SERP.fyi different from traditional SEO tools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traditional tools only track keyword rankings, whereas SERP.fyi tracks how both human search engines and AI systems understand your brand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is an AI visibility audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An analysis measuring how often, accurately, and positively your brand is cited and recommended across AI search engines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which AI search platforms does SERP.fyi monitor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Major generative search platforms and LLMs, including ChatGPT, Perplexity, and Google AI Overviews."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the SERP Check Engine?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A live tool scanning real-time search results across different keywords, devices, and geographic locations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does SERP.fyi use cached or outdated data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, it provides real-time search intelligence to show accurate, up-to-the-minute ranking positions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I track my local search performance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it includes local search tracking to monitor maps, local packs, and regional ranking results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are search intelligence reports?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Structured reports combining ranking metrics, AI citation signals, and performance trends into easy-to-read insights."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use SERP.fyi data for client reporting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, agencies can generate clean, structured reports to share professional insights with clients."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is SERP.fyi beginner-friendly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it features a unified dashboard organizing complex search and AI data into a single interface."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I run my first audit on SERP.fyi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can register on the platform, input your brand or target keywords, and run a live search and AI visibility scan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What metrics are tracked in the unified dashboard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Live rankings, AI entity recognition, generative mentions, local visibility, and performance trends."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my search research and data private?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, your keyword queries and analysis data are kept strictly confidential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who created SERP.fyi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is an advanced search observatory tool developed as part of the BHMarketer ecosystem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is entity recognition tracking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It measures whether AI systems recognize your brand as a legitimate, established entity within their knowledge graphs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are AI citations important for my brand?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Modern users often get answers directly from AI summaries without visiting traditional links, making AI citations vital for exposure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does SERP.fyi handle zero-click searches?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It tracks how your brand appears inside SERP features and AI answer blocks where traditional clicks are intercepted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I track rankings across different countries and cities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the platform supports multi-location and global market tracking to check local search conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does SERP.fyi track mobile and desktop rankings separately?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can filter and scan real-time rankings across both mobile and desktop environments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are SERP features?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Special elements on search engine pages like knowledge panels, local packs, image packs, and AI Overviews."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the platform detect changes in search intent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It analyzes top-ranking pages to evaluate how search intent patterns shift over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can SERP.fyi help optimize content for Google AI Overviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, by showing how your content performs against the specific criteria required to win AI summary citations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is signal mapping?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The process of mapping out underlying signals, such as schema, authority, and structure, that influence your search placement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often is ranking data refreshed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Data is pulled in real-time to ensure you always see current search engine conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are historical performance trends available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can view how your rankings and AI visibility signals change over time within your dashboard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I track competitor rankings alongside my own?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can analyze competitor positions to see how they perform in both traditional SERPs and AI answers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does \"LLM-Ready Signal Mapping\" mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It identifies the specific structural and trust signals determining whether an AI model recommends your brand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I check if my brand is mentioned by ChatGPT or Perplexity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The platform's AI visibility scanner queries these generative models to track direct brand mentions and context."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does SERP.fyi require any software installation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, it is a cloud-based web platform accessible right from your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I export my audit reports?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can generate structured reports to export or present to stakeholders."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does local pack heatmap precision work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It helps local businesses track exactly how visible their Google Business Profile is across different coordinates in a city."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if my AI visibility score is low?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can improve your entity footprint by building structured data, digital PR, and authoritative web mentions that LLMs frequently scrape."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does SERP.fyi ensure accuracy in its data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By pulling live feeds directly from real-world search environments rather than relying on estimated or cached databases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can agencies white-label the reports?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, agencies can present clean search intelligence metrics under their own workflow setup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start tracking a new keyword campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simply add your target keywords and target location into your dashboard console to launch a live scan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does SERP.fyi track voice or conversational search trends?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, by monitoring AI-driven answer engines, it covers the core components of conversational search discovery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the benefit of a unified dashboard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It saves time by bringing traditional rankings, AI visibility, and local SEO metrics into one screen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I get support if I have questions about my audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can reach out through the platform's support channels or contact the SERP.fyi search observatory desk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with SERP.fyi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit the website, explore sample reports, or sign up to run your first real-time SERP and AI visibility audit."
+          }
+        }
+      ]
+    }
+  ]
+}

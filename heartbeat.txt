@@ -1,0 +1,4 @@
+SERP.fyi FAQ Engine heartbeat
+Last update: pending first run
+FAQs: 40
+Dataset SHA-256: 4fc5331f01b66e7cd2f4ff39d301252e38b8a63650d2c5d329799f701ad29dd6

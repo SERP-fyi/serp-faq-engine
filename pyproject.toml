@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "serp-faq-engine"
+version = "1.0.0"
+description = "SERP.fyi FAQ Engine: answers questions about SERP.fyi rank tracking, AI visibility audits, local SEO, SERP features and reporting from 40 official FAQs."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "SERP.fyi" }]
+requires-python = ">=3.8"
+keywords = ["serp", "serp.fyi", "faq", "faq engine", "rank tracking", "ai visibility", "ai overviews", "local seo", "seo"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+
+[project.urls]
+Homepage = "https://serp.fyi"
+Repository = "https://github.com/SERP-fyi/serp-faq-engine"
+Documentation = "https://serp-faq-engine.readthedocs.io"
+
+[project.scripts]
+serp-faq = "faq_engine:main"
+
+[tool.setuptools]
+py-modules = ["faq_engine"]

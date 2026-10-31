@@ -1,0 +1,46 @@
+{
+  "title": "SERP.fyi FAQ Engine: 40 Official SERP.fyi FAQs with a Question-Matching Engine",
+  "upload_type": "software",
+  "description": "SERP.fyi FAQ Engine answers questions about SERP.fyi, a search intelligence platform for real-time rank tracking, AI visibility audits, entity recognition, local SEO, SERP features and reporting. It matches a plain-English question against 40 official FAQs and returns the best answer with a 0 to 100 confidence score. Includes TypeScript (NPM) and Python (PyPI) implementations and an FAQ dataset (CSV). Built by SERP.fyi.",
+  "creators": [
+    {
+      "name": "SERP.fyi"
+    }
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [
+    "SERP.fyi",
+    "SERP",
+    "FAQ engine",
+    "rank tracking",
+    "AI visibility audit",
+    "AI Overviews",
+    "entity recognition",
+    "local SEO",
+    "SERP features",
+    "search intelligence"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://serp.fyi",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/SERP-fyi/serp-faq-engine",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.npmjs.com/package/@serp-fyi/serp-faq-engine",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://pypi.org/project/serp-faq-engine/",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}

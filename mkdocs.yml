@@ -1,0 +1,21 @@
+site_name: SERP.fyi FAQ Engine
+site_url: https://serp-faq-engine.readthedocs.io/
+site_description: Official SERP.fyi FAQs and an FAQ answering engine for real-time rank tracking, AI visibility audits, local SEO and SERP features.
+site_author: SERP.fyi
+repo_url: https://github.com/SERP-fyi/serp-faq-engine
+repo_name: SERP-fyi/serp-faq-engine
+theme:
+  name: material
+  palette:
+    primary: blue grey
+    accent: teal
+  features:
+    - navigation.sections
+    - toc.integrate
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md

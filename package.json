@@ -1,0 +1,41 @@
+{
+  "name": "@serp-fyi/serp-faq-engine",
+  "version": "1.0.0",
+  "description": "SERP.fyi FAQ Engine: answers questions about SERP.fyi real-time rank tracking, AI visibility audits, entity recognition, local SEO, SERP features and reporting from 40 official SERP.fyi FAQs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "serp-faq": "dist/index.js"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "serp",
+    "serp-fyi",
+    "faq",
+    "faq-engine",
+    "rank-tracking",
+    "ai-visibility",
+    "ai-overviews",
+    "local-seo",
+    "serp-features",
+    "seo"
+  ],
+  "homepage": "https://serp.fyi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SERP-fyi/serp-faq-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SERP-fyi/serp-faq-engine/issues"
+  },
+  "author": "SERP.fyi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
