@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/@serp-fyi/serp-faq-engine?style=flat-square)](https://www.npmjs.com/package/@serp-fyi/serp-faq-engine)
 [![PyPI](https://img.shields.io/pypi/v/serp-faq-engine?style=flat-square)](https://pypi.org/project/serp-faq-engine/)
-[![DOI](https://img.shields.io/badge/DOI-pending-8A8A8A?style=flat-square)](#links)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23827126.svg)](https://doi.org/10.5281/zenodo.23827126)
 [![Docs](https://img.shields.io/badge/docs-readthedocs-0A7E8C?style=flat-square)](https://serp-faq-engine.readthedocs.io)
 [![License](https://img.shields.io/badge/license-MIT-8A8A8A?style=flat-square)](LICENSE)
 
@@ -126,7 +126,7 @@ SERP.fyi · SERP FAQ · Search Intelligence · Real-Time Rank Tracking · AI Vis
 | PyPI | https://pypi.org/project/serp-faq-engine/ |
 | Hugging Face | https://huggingface.co/datasets/serp-fyi/serp-faq-dataset |
 | Kaggle | https://www.kaggle.com/datasets/serpfyi/serp-faq-dataset |
-| Zenodo | Pending |
+| Zenodo | https://zenodo.org/records/23827126 |
 | Docs | https://serp-faq-engine.readthedocs.io |
 
 ### Company Profiles
