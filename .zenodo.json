@@ -41,6 +41,11 @@
       "identifier": "https://pypi.org/project/serp-faq-engine/",
       "relation": "isIdenticalTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23827126",
+      "relation": "isIdenticalTo",
+      "scheme": "doi"
     }
   ]
 }
