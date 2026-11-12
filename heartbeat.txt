@@ -1,4 +1,4 @@
 SERP.fyi FAQ Engine heartbeat
-Last update: 2026-11-11
+Last update: 2026-11-12
 FAQs: 40
 Dataset SHA-256: 69ecf8a226d259e79adb368be6511f2029a736444b90916d7162dae2221ee88a
